@@ -4,15 +4,16 @@
 <body>
 
     <form>
-
+<fieldset>
+    <legend>personal informacion </legend>
 <label for="firstname">firstname :</label><br>
-<input type="text" id="firstname" name="firstname"><br>
+<input type="text" id="firstname" name="firstname" value="tuana" disabled><br>
 
 <label for="lastname">lastname :</label><br>
 <input type="text" id="lastname" name="lastname"><br>
 
 <label for="password">password :</label><br>
-<input type="password" id="password" name="password"><br>
+<input type="password" id="password" name="password" size="20" placeholder="PASSWORD"><br>
 
 <label for="email">email :</label><br>
 <input type="email" id="email" name="email"><br><br>
@@ -37,12 +38,24 @@
 
 
 <input type="checkbox" id="basketball" name="basketball" value="basketball">
-<label for="basketball">basketball </label>
+<label for="basketball">basketball </label><br><br>
 
 
 
+<label for="pet">chose a pet:</label>
+<select id="pet" name="pet">
+    <option value="dog">DOG</option>
+    <option value="cat">cat</option>
+    <option value="parrot">parrot</option>
+
+</select><br><br>
 
 
+<textarea name="message" rows="10" col="20" maxlength="50"></textarea>
+
+
+
+</fliedset>
 
     </form>
 
