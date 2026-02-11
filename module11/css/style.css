@@ -1,0 +1,17 @@
+p{
+
+margin-top: 100px;
+margin-bottom: 100px;
+margin-left: 150px;
+margin-right: 80;
+}
+
+div{
+
+width: 300px;
+border: 15px solid saddlebrown ;
+margin: 20;
+padding: 20px;
+background-color: blue;
+
+}
