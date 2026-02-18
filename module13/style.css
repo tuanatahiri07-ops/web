@@ -1,0 +1,81 @@
+/*ul{
+list-style: circle;
+list-style-image: url("foto/images.png");
+
+}
+
+ol{
+    
+    list-style-type: upper-alpha;
+}
+    */
+
+ul{
+
+list-style-type: none;
+padding: 0;
+border: 2px solid grey;
+
+}
+
+
+ul li{
+    padding: 8px 16px;
+    border-bottom: 2px solid grey;
+
+}
+
+
+ol{
+    background: #ffeeee;
+    padding: 15px;
+    
+}
+
+
+ol li {
+
+    background: #ffe555;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+
+<table{
+
+border-collapse: collapse;
+
+
+
+}
+
+
+td,th{
+
+
+    border: 1px solid black;
+     padding: 15px;
+    
+}
+
+
+tbody tr:nth-child(odd){
+    background-color: blue
+}
+
+tbody tr:nth-child(even){
+    background-color: red
+}
+
+
+div{
+    overflow: auto;
+ background-color: blue;
+ width: 100px
+height:100px
+
+
+
+
+
+}
