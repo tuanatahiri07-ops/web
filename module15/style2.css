@@ -39,3 +39,38 @@ body{
 .active{
     background-color: blue;
 }
+
+
+#vertical-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: antiquewhite;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+
+
+
+}
+
+
+#vertical-menu li a {
+
+    display: block;
+    color: rgb(112, 112, 47);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+#horizontal-menu li a:hover:not(.active){
+    background-color: #949292
+
+}
+
+.active{
+    background-color: blue;
+}
