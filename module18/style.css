@@ -1,0 +1,9 @@
+#engineers img {
+    filter: grayscale(100%);
+    transition: .3 ease-in-out;
+    
+}
+
+#engineers:hover img{
+    filter:grayscale(0);
+}
