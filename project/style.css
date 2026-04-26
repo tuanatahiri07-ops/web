@@ -1,5 +1,5 @@
 body{
-   background:rgb(89, 0, 255);
+   background:lightblue;
    margin: 0;
 }
 
@@ -51,6 +51,9 @@ nav a {
 
 
 
+
+
+
 .about{
     text-align: center;
  
@@ -58,14 +61,121 @@ nav a {
 
 
 .about h1 {
-    color: darkred;
-    font-size: 60px;
+    color: rgb(0, 49, 139);
+    font-size: 100px;
     padding: 20px;
 }
 
 .about p {
     font-size: 35px;
     color:#333;
-    margin-right: 100px;
-    margin-bottom: 100px;
+    
+    margin-bottom: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menuu{
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 1000px;
+    padding: 10px;
+}
+
+
+
+
+.write1 {
+
+    color: orange;
+    font-size: 30x;
+}
+
+
+.write1 h1 {
+    font-size: 70px;
+    
+}
+
+
+.pizza1{
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+.pizza1-1 h1 {
+    font-size: 20px;
+    margin-bottom: 1000px;
+    margin-right: 1000px;
+    color: black;
+    
+}
+
+.pizza1-p{
+
+    font-size: 30px;
+    color: black;
+
+
+
+}
+
+ul{
+    color: black;
+}
+
+
+
+
+
+
+.gallery {
+    padding: 50px;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.gallery-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
 }
