@@ -1,0 +1,71 @@
+body{
+   background:rgb(89, 0, 255);
+   margin: 0;
+}
+
+.navbar{
+    flex: end;
+    justify-content: space-between;
+    padding: 20px 60px;
+    
+}
+
+nav a {
+    margin-left: 25;
+    color: white;
+    font-size: 14px;
+    text-decoration: black;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.text h3{
+    color:orange;
+    margin-bottom: 45px;
+    font-size:25px;
+
+}
+
+
+
+.text h1 {
+    font-size:70px;
+    margin-bottom: 50px;
+}
+
+.text p{
+    font-size :30px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+.about{
+    text-align: center;
+ 
+}
+
+
+.about h1 {
+    color: darkred;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.about p {
+    font-size: 35px;
+    color:#333;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
