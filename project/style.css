@@ -1,36 +1,42 @@
 body{
-   background:lightblue;
+  
    margin: 0;
 }
 
 .navbar{
-    flex: end;
-    justify-content: space-between;
-    padding: 20px 60px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    align-items: center;
     
 }
 
 nav a {
-    margin-left: 25;
+    flex-direction: end;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
     text-decoration: black;
 }
 
 .hero{
     display: flex;
     justify-content: center;
-    text-align: center;
     color: white;
     align-items: center;
     height: 100vh;
+
+   background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(restaurant.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px 5px black;
 }
 
 
 .text h3{
-    color:orange;
+    color:black;
     margin-bottom: 45px;
-    font-size:25px;
+    font-size:30px;
 
 }
 
@@ -39,11 +45,13 @@ nav a {
 .text h1 {
     font-size:70px;
     margin-bottom: 50px;
+    color:rgb(0, 0, 0)
 }
 
 .text p{
-    font-size :30px;
+    font-size :50px;
     margin-bottom: 25px;
+    color: rgb(0, 20, 87);
 }
 
 
@@ -56,6 +64,8 @@ nav a {
 
 .about{
     text-align: center;
+    background: blanchedalmond;
+    background: cover;
  
 }
 
@@ -68,84 +78,74 @@ nav a {
 
 .about p {
     font-size: 35px;
-    color:#333;
-    
-    margin-bottom: 500px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.menuu{
-    
-    display: flex;
-    align-items: center;
-    margin-bottom: 1000px;
-    padding: 10px;
-}
-
-
-
-
-.write1 {
-
-    color: orange;
-    font-size: 30x;
-}
-
-
-.write1 h1 {
-    font-size: 70px;
+    color:#333; 
     
 }
 
-
-.pizza1{
+.logo {
+   
     height: 400px;
-    width: 500px;
-    border-radius: 10px;
+    width: 400px;
+    border-radius: 25%;
 }
 
 
-.pizza1-1 h1 {
-    font-size: 20px;
-    margin-bottom: 1000px;
-    margin-right: 1000px;
-    color: black;
-    
-}
-
-.pizza1-p{
-
-    font-size: 30px;
-    color: black;
 
 
 
-}
 
-ul{
-    color: black;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
