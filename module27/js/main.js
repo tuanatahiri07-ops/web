@@ -51,3 +51,35 @@ console.log(car.getkilometres);
 
 alert(car.name); 
 alert(car["color"]);
+
+car.starEngine();
+
+function computer ( name,cpu,ram,rom){
+
+    this.name=name;
+    this.cpu=cpu;
+    this.ram=ram;
+    this.rom=rom;
+
+
+}
+
+
+var com1=new Computer ("mackbook","8-core","8gb","8gb");
+var com2=new Computer ("mackbook","6-core","8gb","8gb");
+
+
+function car ( name,color,year,modelin){
+
+    this.name=name;
+    this.color=color;
+    this.year=year;
+    this.modelin=modelin;
+
+
+
+
+}
+
+
+var car1=new Car("audi","black","2026","rsq8");
